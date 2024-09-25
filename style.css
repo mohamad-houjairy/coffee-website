@@ -1,0 +1,354 @@
+*{
+  font-family: 'Merriweather', serif;
+}
+
+/*///////////////////////////////////////////////////////////////home//////////////////////////////////////////////////////////////*/
+.home{
+    width: 100%;
+    height: 88vh;
+    background-image:linear-gradient(to right,rgb(0, 0, 0) 2%,  rgba(0, 0, 0, 0.701)   30%), url(image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+ background-color:#b2744c;
+
+
+}
+.navbar-brand img {
+    height: 40px;
+  border-radius: 10px;
+    width: 90px;
+ 
+  }  
+  .navbar-nav{
+    margin-left: 200px;
+  }
+  .navbar-nav li {
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+  .navbar-nav li :hover{
+    background-color: aliceblue;
+    border-radius: 10%;
+  }
+  .navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+  }
+  .content{
+    padding-top: 150px;
+    margin-left: 56px;
+  }
+  .content h3{
+    font-size: 50px;
+    color: white;
+  }
+  .content p{
+    margin-top: 10px;
+    color: white;
+  }
+  #btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background: #b2744c;
+    color: white;
+  }
+  /*////////////////////////////////////////////////////////////////about///////////////////////////////////////////////////////////*/
+#about{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+#about .container{
+  padding-top: 70px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading span{
+  color: #b2744c;
+}
+#about .card{
+  border-radius: 10px;
+  
+}
+#about .card img{
+
+  border-radius: 10px;
+
+ 
+}
+#about-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #b2744c;
+  color: #b2744c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover{
+  background: #b2744c;
+  color: white;
+}
+@media screen and (max-width:767px){
+  
+   #about{
+   height: 130vh;  
+   }
+  } 
+ 
+/*/////////////////////////////////////////////////////////////topcat//////////////////////////////////////////////////////////////////*/
+.topcat{
+  width: 100%;
+  height: 60vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+
+}
+.topcat img {
+  width: 300px;
+  
+}
+.top-cards{
+  width: 100%;
+  height: 60vh;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading2{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.heading2 span{
+  color: #b2744c;
+}
+.top-cards .container{
+  margin-top: 30px;
+}
+.top-cards .card{
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.top-cards .card img{
+  border-radius: 10px;
+}
+.top-cards .card h3{
+  text-align: center;
+  padding-top: 78px;
+  color: white;
+}
+.top-cards .card:hover{
+  transform: translateY(-10px);
+}
+@media screen and (max-width:767px){
+ .top-cards{
+  height: 170vh;
+  #about{
+  height: 130vh;  
+  }
+ } 
+}
+@media screen and (max-width:500px){
+ .top-cards{
+  height: 150vh;
+ } 
+}
+@media screen and (max-width:370px){
+ .top-cards{
+  height: 120vh;
+ } 
+}
+
+/*//////////////////////////////////////////////////////////////menu//////////////////////////////////////////////////////////////////*/
+
+.menu{
+  width: 100%;
+  height: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.menu .card-group{
+  margin:10px 45px ;
+}
+.menu .card{
+  margin:  10px;
+ 
+  border-radius:10px;
+   height: 28rem;
+   
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: white;
+}
+ .menu .menu2{
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+  
+}
+.menu .card h3{
+  text-align: center;
+  margin-top: 40px;
+  color: #b2744c;
+}
+.menu .card .star{
+  color: #b2744c;
+  text-align: center;
+}
+.menu .card .shop{
+  color: #b2744c;
+  display:flex ;
+  justify-content: space-between;
+ 
+}
+.menu .card .price {
+  font-size: x-large;
+}
+.menu .card .price{
+  margin-top: -9px;
+}
+/*///////////////////////////////////////////////////////////////////////gal//////////////////////////////////////////////////////*/
+#gallary{
+  width: 100%;
+}
+#gallary h1{
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  font-weight: bold;
+}
+#gallary h1 span{
+  color: #b2744c;
+}
+#gallary .card{
+  border-radius: 10px;
+}
+#gallary .card img{
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*////////////////////////////////////////////////////////////////////contact/////////////////////////////////////////////////////////*/
+.contact{
+  height: 100vh;
+  background-color: #f7f5f2;
+  overflow: auto;
+}
+.contact .container{
+  background-color: white;
+  position: relative;
+  top: 10%;
+  height: 80vh ;
+  border-radius: 10px;
+ 
+  overflow: auto;
+}
+.contact .title{
+  font-size: xx-large;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.contact .title span{
+  color: #b2744c;
+}
+#send-btn{
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #b2744c;
+  color: #b2744c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+#send-btn:hover{
+  background:#b2744c;
+  color: white;
+}
+
+
+.contact .content{
+  background-color: #000000;
+  color: white;
+ z-index: 100;
+ position: relative;
+ top: 0px;
+ margin: 20px;
+ border-radius: 10px;
+ height: 70vh;
+ text-align: center;
+}
+.email , .location , .number{
+  font-size: x-large;
+  margin: 30px;
+  float: left;
+  
+}
+.contact .content i{
+  font-size: x-large;
+  margin: 10px;
+}
+/*/////////////////////////////////////////////////////////////////footer///////////////////////////////////////////////////////*/
+footer{
+  text-align: center;
+  background-color: #b2744c;
+ 
+ 
+}
+footer .logo{
+ padding: 20px;
+}
+footer .icon{
+  margin: 10px;
+}
+footer .text{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  padding-bottom: 0%;
+}
+footer i {
+  margin: 10px;
+  background-color: #000000;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: x-large;
+ padding: 7px;
+ border-radius: 10px;
+ transition: .6s;
+}
+footer a :hover{
+  font-size: xx-large;
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  color: #000000;
+}
